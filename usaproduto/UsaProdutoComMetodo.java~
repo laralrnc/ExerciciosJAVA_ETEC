@@ -1,0 +1,27 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+class UsaProdutoComMetodo 
+{
+  public static void main (String args[])
+  {
+    
+   Produto prod1 = new Produto();
+   Produto prod2 = new Produto();
+   Produto prod3 = new Produto();
+   
+    prod1.digitaProduto();
+    prod2.digitaProduto();
+    prod3.digitaProduto();
+    
+    prod1.preco_total = prod1.preco * prod1.quantidade;
+    prod2.preco_total = prod1.preco * prod1.quantidade;
+    prod3.preco_total = prod1.preco * prod1.quantidade;
+    
+    prod1.calculaDesconto();
+    prod2.calculaDesconto();
+    prod3.calculaDesconto();
+      
+      
+    

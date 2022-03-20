@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import javax.swing.JOptionPane;
+
 
 public class se {
 
@@ -29,7 +31,6 @@ public class se {
 	}
 	if  (num >=50 && num<=100){
 		System.out.println (" O numero " + num + " esta entre 50 e 100 ");
-	
 	
 	}
 	}
